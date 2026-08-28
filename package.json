@@ -1,0 +1,30 @@
+{
+  "name": "ecocart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm --prefix client run dev",
+    "start": "node server.js",
+    "build": "npm --prefix client run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vedants06/EcoCart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vedants06/EcoCart/issues"
+  },
+  "homepage": "https://github.com/Vedants06/EcoCart#readme",
+  "dependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.5",
+    "@vitejs/plugin-react": "^6.1.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
